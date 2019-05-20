@@ -13,6 +13,7 @@
 		02363A5C2292FF8C00941BC8 /* XCTestCase+WaitFullfillment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02363A5B2292FF8C00941BC8 /* XCTestCase+WaitFullfillment.swift */; };
 		02363A63229314B900941BC8 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02363A62229314B900941BC8 /* Functions.swift */; };
 		02363A6622932DBF00941BC8 /* XCUIElement+Swipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02363A6522932DBF00941BC8 /* XCUIElement+Swipe.swift */; };
+		02363A682293339A00941BC8 /* XCTestCase+Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02363A672293339A00941BC8 /* XCTestCase+Query.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		02363A5F2293012600941BC8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		02363A62229314B900941BC8 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		02363A6522932DBF00941BC8 /* XCUIElement+Swipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIElement+Swipe.swift"; sourceTree = "<group>"; };
+		02363A672293339A00941BC8 /* XCTestCase+Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Query.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				02363A5B2292FF8C00941BC8 /* XCTestCase+WaitFullfillment.swift */,
 				02363A6522932DBF00941BC8 /* XCUIElement+Swipe.swift */,
 				02363A62229314B900941BC8 /* Functions.swift */,
+				02363A672293339A00941BC8 /* XCTestCase+Query.swift */,
 			);
 			path = "XCUITest-Utils";
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02363A6622932DBF00941BC8 /* XCUIElement+Swipe.swift in Sources */,
+				02363A682293339A00941BC8 /* XCTestCase+Query.swift in Sources */,
 				02363A5C2292FF8C00941BC8 /* XCTestCase+WaitFullfillment.swift in Sources */,
 				02363A63229314B900941BC8 /* Functions.swift in Sources */,
 			);
