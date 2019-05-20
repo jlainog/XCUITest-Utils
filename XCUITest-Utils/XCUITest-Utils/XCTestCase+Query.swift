@@ -12,7 +12,7 @@ import XCTest
 public extension XCTestCase {
 
     /**
-     Direclty query over XCUIApplication().buttons for an element that matches the predicate.
+     Directly query over XCUIApplication().buttons for an element that matches the predicate.
      
      ```
      //Example
@@ -27,7 +27,7 @@ public extension XCTestCase {
     }
     
     /**
-     Direclty query over XCUIApplication().staticTexts for an element that matches the predicate.
+     Directly query over XCUIApplication().staticTexts for an element that matches the predicate.
      
      ```
      //Example
@@ -42,7 +42,7 @@ public extension XCTestCase {
     }
     
     /**
-     Direclty query over XCUIApplication().textViews for an element that matches the predicate.
+     Directly query over XCUIApplication().textViews for an element that matches the predicate.
      
      ```
      //Example
@@ -57,7 +57,7 @@ public extension XCTestCase {
     }
 
     /**
-     Direclty query over XCUIApplication().otherElements for an element that matches the predicate.
+     Directly query over XCUIApplication().otherElements for an element that matches the predicate.
      
      ```
      //Example
@@ -72,7 +72,7 @@ public extension XCTestCase {
     }
     
     /**
-     Direclty query over XCUIApplication().descendant(matching: type)
+     Directly query over XCUIApplication().descendant(matching: type)
      for an element that matches the predicate
      
      ```
@@ -91,7 +91,7 @@ public extension XCTestCase {
     }
     
     /**
-     Direclty query over XCUIApplication().descendants(matching: type)
+     Directly query over XCUIApplication().descendants(matching: type)
      for all elements that matches the predicate.
      
      ```
@@ -111,7 +111,7 @@ public extension XCTestCase {
     }
     
     /**
-     Direclty query over XCUIApplication().children(matching: type)
+     Directly query over XCUIApplication().children(matching: type)
      for an element that matches the predicate.
      
      ```
@@ -130,7 +130,7 @@ public extension XCTestCase {
     }
     
     /**
-     Direclty query over XCUIApplication().children(matching: type)
+     Directly query over XCUIApplication().children(matching: type)
      for all elements that matches the predicate.
      
      ```

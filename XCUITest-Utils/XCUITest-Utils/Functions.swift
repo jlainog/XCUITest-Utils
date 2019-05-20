@@ -39,5 +39,5 @@ public func predicate<T>(_ kp: KeyPath<XCUIElement, T>,
 public func compound(_ lhs: NSPredicate,
                      _ type: NSCompoundPredicate.LogicalType,
                      _ rhs: NSPredicate) -> NSPredicate {
-    return NSCompoundPredicate(type: .and, subpredicates: [lhs, rhs])
+    return NSCompoundPredicate(type: type, subpredicates: [lhs, rhs])
 }
