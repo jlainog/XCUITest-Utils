@@ -40,6 +40,7 @@ public extension XCTestCase {
         default:
             if let message = message {
                 XCTFail(message, file: file, line: line)
+                return
             }
 
             XCTFail("Failed to fullfill predicate: \(predicate)", file: file, line: line)

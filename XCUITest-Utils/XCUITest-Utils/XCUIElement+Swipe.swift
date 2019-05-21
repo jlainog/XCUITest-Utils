@@ -39,8 +39,8 @@ public extension XCUIElement {
      - Parameter condition: The condition to satisfy.
      */
     func swipe(_ direction: SwipeDirection,
-                      maxSwipes: Int = 10,
-                      until condition: @autoclosure () -> Bool) {
+               maxSwipes: Int = 10,
+               until condition: @autoclosure () -> Bool) {
         var swipes = maxSwipes
         
         while (!condition() && swipes != 0) {
